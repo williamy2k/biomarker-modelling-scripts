@@ -11,7 +11,7 @@ abline(lm(random_fyp_dataset), lwd=2, col="red");
 
 
 #
-# Quadratic Regression
+# Quadratic Regression, and higher power functions
 # (Adapted from code published by David Lillis, Ph.D. @ https://www.theanalysisfactor.com/r-tutorial-4/)
 #
 
