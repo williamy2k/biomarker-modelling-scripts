@@ -26,7 +26,7 @@ summary(lm(time ~ apoe + apoe2));
 
 # Draw the curve
 lines(apoevalues, predict(lm(time ~ apoe + apoe2), list(apoe=apoevalues, apoe2=apoevalues^2)), lwd=2, col="green");
-# For higher power functions, apoe3 <- apoe^; lm(time ~ apoe + apoe2 + apoe3); would be used, and so on for 4, 5, 6, etc... powers
+# For higher power functions, apoe3 <- apoe^3; lm(time ~ apoe + apoe2 + apoe3); would be used, and so on for 4, 5, 6, etc... powers
 
 
 #
